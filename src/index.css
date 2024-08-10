@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Public+Sans:wght@200&family=Quicksand&family=Raleway:wght@300;500&family=Wix+Madefor+Display&display=swap");
+
+* {
+  font-family: "Montserrat";
+}
+html {
+  font-family: "Montserrat";
+}
+button {
+  font-family: "Montserrat";
+}
+h1,
+p {
+  font-family: "Montserrat";
+}
+.main {
+  grid-template-columns: 5.5vw 92.7vw;
+}
+.overflow-y-scroll::-webkit-scrollbar {
+  display: none;
+}
+.cc {
+  transition: background 1s ease-in-out;
+}
+.hh {
+  font-family: "Nunito", sans-serif;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  color: #f3f3f2;
+}
+.l {
+  transform: scaleX(-1);
+}
+.hl1 {
+  grid-template-columns: 30% 70%;
+}
+.h1 {
+  grid-template-columns: 40% 60%;
+}
+.g1 {
+  grid-template-columns: 60% 40%;
+}
+.g2 {
+  grid-template-columns: 40% 60%;
+}
+.f {
+  grid-template-columns: 75% 25%;
+}
+.f1 {
+  grid-template-columns: 30% 70%;
+}
+.in {
+  background: linear-gradient(#4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
+}
